@@ -1,0 +1,110 @@
+[
+  {
+    "id": "#175973854642024",
+    "userId": "cmgbutjqa002gku5gi80783sn",
+    "frontendUserId": "cmgbutjqa002gku5gi80783sn",
+    "customerName": "Aksh rajan",
+    "customerEmail": "jonsnow0569@gmail.com",
+    "customerPhone": "09106192805",
+    "items": [
+      {
+        "name": "Sample\n",
+        "price": 172.2,
+        "quantity": 1,
+        "sku": "modern-ganesha-painting-abstract-indian-art-entryway-decor-17",
+        "total": 172.2,
+        "image": "https://i.etsystatic.com/22844396/r/il/07a40c/5816521208/il_794xN.5816521208_9oom.jpg",
+        "productId": "cmg1zvav1000sku7s43eex7gq",
+        "isFreeItem": false,
+        "originalPrice": null,
+        "freeItemType": null,
+        "size": "Standard",
+        "color": "Default"
+      },
+      {
+        "name": "Ganesha Painting\n",
+        "price": 0,
+        "quantity": 1,
+        "sku": "SKU-cmg1zvao8000iku7sbvc8curn",
+        "total": 0,
+        "image": "https://i.etsystatic.com/22844396/r/il/6cada7/6340378939/il_794xN.6340378939_tf0t.jpg",
+        "productId": "cmg1zvao8000iku7sbvc8curn",
+        "isFreeItem": true,
+        "originalPrice": 222.95,
+        "freeItemType": "Buy X Get Y",
+        "size": "Standard",
+        "color": "Default"
+      }
+    ],
+    "subtotal": 172.2,
+    "shipping": {
+      "method": "Standard Shipping",
+      "cost": "US$ 500.00",
+      "destination": "Himmatnagar, Gujarat"
+    },
+    "tax": 31,
+    "total": 480.25000000000006,
+    "shippingAddress": "Harshal Mistry\n12,vinayaknagar,chappariya,himmatnagar\nHimmatnagar, Gujarat 383001\nIndia",
+    "billingAddress": "Harshal Mistry\n12,vinayaknagar,chappariya,himmatnagar\nHimmatnagar, Gujarat 383001\nIndia",
+    "status": "Not Shipped",
+    "paymentStatus": "Pending",
+    "fulfillmentStatus": "Unfulfilled",
+    "createdAt": "2025-10-06T08:15:47.154Z",
+    "orderedDate": "2025-10-06T08:15:47.154Z",
+    "shipByDate": "2025-10-13T08:15:47.154Z",
+    "totalPrice": "US$ 480.25",
+    "destinationCountry": "India",
+    "hasNote": false,
+    "isGift": false,
+    "isPersonalizable": false,
+    "appliedDiscount": null,
+    "freeItemsSavings": 222.95
+  },
+  {
+    "id": "#1759738812934207",
+    "userId": "cmgbutjqa002gku5gi80783sn",
+    "frontendUserId": "cmgbutjqa002gku5gi80783sn",
+    "customerName": "Aksh rajan",
+    "customerEmail": "jonsnow0569@gmail.com",
+    "customerPhone": "09106192805",
+    "items": [
+      {
+        "name": "Sample\n",
+        "price": 172.2,
+        "quantity": 1,
+        "sku": "modern-ganesha-painting-abstract-indian-art-entryway-decor-17",
+        "total": 172.2,
+        "image": "https://i.etsystatic.com/22844396/r/il/07a40c/5816521208/il_794xN.5816521208_9oom.jpg",
+        "productId": "cmg1zvav1000sku7s43eex7gq",
+        "isFreeItem": false,
+        "originalPrice": null,
+        "freeItemType": null,
+        "size": "Standard",
+        "color": "Default"
+      }
+    ],
+    "subtotal": 172.2,
+    "shipping": {
+      "method": "Standard Shipping",
+      "cost": "US$ 500.00",
+      "destination": "Himmatnagar, Gujarat"
+    },
+    "tax": 31,
+    "total": 531,
+    "shippingAddress": "Harshal Mistry\n12,vinayaknagar,chappariya,himmatnagar\nHimmatnagar, Gujarat 383001\nIndia",
+    "billingAddress": "Harshal Mistry\n12,vinayaknagar,chappariya,himmatnagar\nHimmatnagar, Gujarat 383001\nIndia",
+    "status": "Not Shipped",
+    "paymentStatus": "Pending",
+    "fulfillmentStatus": "Unfulfilled",
+    "createdAt": "2025-10-06T08:20:14.462Z",
+    "orderedDate": "2025-10-06T08:20:14.462Z",
+    "shipByDate": "2025-10-13T08:20:14.462Z",
+    "totalPrice": "US$ 531.00",
+    "destinationCountry": "India",
+    "hasNote": false,
+    "isGift": false,
+    "isPersonalizable": false,
+    "appliedDiscount": null,
+    "freeItemsSavings": 0
+  }
+]
