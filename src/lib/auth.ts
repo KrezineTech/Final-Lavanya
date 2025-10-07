@@ -1,11 +1,11 @@
-import NextAuth from 'next-auth'
+import NextAuth, { NextAuthOptions } from 'next-auth'
 import CredentialsProvider from 'next-auth/providers/credentials'
 import { prisma } from '@/lib/prisma'
 import bcrypt from 'bcryptjs'
 import jwt from 'jsonwebtoken'
 import { SUPER_ADMIN, isSuperAdminCredentials, getSuperAdminData, hashPassword } from '@/lib/super-admin-config'
 
-const authOptions = {
+export const authOptions: NextAuthOptions = {
   // adapter: PrismaAdapter(prisma), // Not needed for JWT strategy
   secret: process.env.NEXTAUTH_SECRET,
   providers: [
@@ -261,7 +261,8 @@ const authOptions = {
   }
 }
 
+// For Next.js 13+ App Router
 export const { handlers, auth, signIn, signOut } = NextAuth(authOptions)
 
-// Export the auth options for middleware
+// Default export for backward compatibility
 export default authOptions
