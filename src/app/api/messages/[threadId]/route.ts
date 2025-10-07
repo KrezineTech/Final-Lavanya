@@ -6,10 +6,10 @@ const prisma = new PrismaClient();
 // PATCH /api/messages/[threadId] - Update thread properties
 export async function PATCH(
   request: NextRequest,
-  { params }: { params: { threadId: string } }
+  { params }: { params: Promise<{ threadId: string }> }
 ) {
   try {
-    const { threadId } = params;
+    const { threadId } = await params;
     const threadIdNum = parseInt(threadId);
 
     if (isNaN(threadIdNum)) {
@@ -126,10 +126,10 @@ export async function PATCH(
 // GET /api/messages/[threadId] - Get thread details
 export async function GET(
   request: NextRequest,
-  { params }: { params: { threadId: string } }
+  { params }: { params: Promise<{ threadId: string }> }
 ) {
   try {
-    const { threadId } = params;
+    const { threadId } = await params;
     const threadIdNum = parseInt(threadId);
 
     if (isNaN(threadIdNum)) {
